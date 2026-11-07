@@ -1,9 +1,5 @@
-<!doctype html>
-<html lang="ru">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Бриф Hash-AI</title>
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>Шпаргалка Дегустации</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Unbounded:wght@600;700&amp;family=Manrope:wght@400;500;600;700&amp;display=swap">
@@ -51,21 +47,33 @@ h1 span{color:var(--accent-soft)}
 .copy.done{background:var(--green-bg);color:var(--green-text)}
 .copy.ghost{background:var(--violet-mid);color:var(--accent-text)}
 @media (max-width:480px){h1{font-size:30px}.copy{width:100%;justify-content:center}.field{padding:18px}}
+.toc{margin-top:20px;display:flex;flex-wrap:wrap;gap:10px}
+.toc a{background:var(--violet-mid);color:var(--accent-text);text-decoration:none;border-radius:999px;padding:10px 18px;font-weight:700;font-size:15px}
+.toc a:hover{background:#352C8A}
+.sec{margin:24px 0 0;font-family:var(--display);font-size:clamp(22px,3vw,28px);display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 14px}
+.sec:first-child{margin-top:0}
+.sec span{font-family:var(--body);font-size:15px;font-weight:600;color:var(--dim)}
+.hint{margin:12px 0 0;font-size:15px;color:var(--dim)}
+.kwg{margin:18px 0 8px;font-size:13px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--label)}
+.kws{display:flex;flex-wrap:wrap;gap:8px}
+.kw{min-height:44px;border:1px solid var(--violet-line);border-radius:12px;padding:10px 16px;background:var(--violet-deep);color:var(--fg);font:600 16px var(--body);cursor:pointer}
+.kw:hover{border-color:var(--accent-soft)}
+.kw:focus-visible{outline:2px solid var(--accent-soft);outline-offset:2px}
+.kw.done{background:var(--green-bg);border-color:var(--green-bg);color:var(--green-text)}
+html{scroll-behavior:smooth}
 </style>
-</head>
-<body>
-
 
 <header><div class="wrap"><div class="brand">HASH AI&nbsp;· Дегустация Лидоруба</div></div></header>
 
 <section class="hero">
   <div class="wrap">
-    <h1>Бриф <span>Hash-AI</span></h1>
-    <p class="sub">Готовый текст для&nbsp;раздела «Бриф» в&nbsp;Лидорубе. Агент будет знакомиться с&nbsp;людьми и&nbsp;приглашать их&nbsp;на&nbsp;бесплатную консультацию.</p>
+    <h1>Шпаргалка <span>практикума</span></h1>
+    <p class="sub">Всё, что&nbsp;нужно скопировать в&nbsp;Лидоруб на&nbsp;практикуме: бриф, первое сообщение и&nbsp;ключевые слова для&nbsp;поиска аудитории.</p>
+    <nav class="toc"><a href="#brief">1. Бриф</a><a href="#msg">2. Первое сообщение</a><a href="#kw">3. Ключевые слова</a></nav>
     <div class="how">
       <p><b>1</b>Нажми «Скопировать» у&nbsp;блока</p>
-      <p><b>2</b>Вставь в&nbsp;поле с&nbsp;тем&nbsp;же названием</p>
-      <p><b>3</b>Повтори для&nbsp;всех семи полей</p>
+      <p><b>2</b>Вставь в&nbsp;поле с&nbsp;тем&nbsp;же названием в&nbsp;Лидорубе</p>
+      <p><b>3</b>Повтори для&nbsp;всех блоков</p>
     </div>
     <p class="note"><b>Агент пишет от&nbsp;женского лица</b>, как&nbsp;девушка-партнёр HASH-AI. Это&nbsp;уже указано в&nbsp;блоках «Описание» и&nbsp;«Миссия», ничего менять не&nbsp;нужно.</p>
   </div>
@@ -73,6 +81,7 @@ h1 span{color:var(--accent-soft)}
 
 <section>
   <div class="wrap fields">
+    <h2 class="sec" id="brief">1. Бриф <span>раздел «Бриф», 7&nbsp;полей</span></h2>
 
     <div class="field"><div class="head"><h2><span class="num">1</span>Описание</h2><button class="copy" type="button" data-t="t1">Скопировать</button></div>
 <div class="text" id="t1">Я партнёр HASH-AI, общаюсь от женского лица (девушка). HASH-AI — это AI-экосистема для привлечения клиентов и партнёров, создания контента, автоматизации коммуникаций и работы с заявками.
@@ -135,6 +144,24 @@ h1 span{color:var(--accent-soft)}
 
 Честность: мы не обещаем конкретное число клиентов, потому что результат зависит от предложения, аудитории и скорости ответа на заявки. Мы обещаем рабочую систему и помощь в её запуске.</div></div>
 
+
+    <h2 class="sec" id="msg">2. Первое сообщение <span>раздел «Рассылка» → «Касание»</span></h2>
+    <div class="field"><div class="head"><h2><span class="num">✉</span>Первое сообщение</h2><button class="copy" type="button" data-t="m1">Скопировать</button></div>
+<div class="text" id="m1">Добрый день! Возможно, мы пока не знакомы.
+
+Подскажите, Вы строите сетевой бизнес как бизнес или больше пользуетесь продуктом как клиент?</div>
+<p class="hint">Вставь вместо сгенерированного текста и нажми «Сохранить».</p></div>
+
+    <h2 class="sec" id="kw">3. Ключевые слова <span>раздел «Парсер»</span></h2>
+    <div class="field"><p class="hint" style="margin-top:0">Возьми 2–3 слова. Выбирай каналы, где под постами есть комментарии: оттуда соберутся самые активные люди. Около 50 человек хватит.</p>
+      <p class="kwg">Сетевой бизнес</p>
+      <div class="kws"><button class="kw" type="button">сетевой бизнес</button><button class="kw" type="button">млм</button><button class="kw" type="button">сетевой маркетинг</button><button class="kw" type="button">mlm</button></div>
+      <p class="kwg">Заработок онлайн</p>
+      <div class="kws"><button class="kw" type="button">заработок онлайн</button><button class="kw" type="button">доход в интернете</button><button class="kw" type="button">бизнес онлайн</button><button class="kw" type="button">удалённый заработок</button></div>
+      <p class="kwg">Развитие и нетворкинг</p>
+      <div class="kws"><button class="kw" type="button">предприниматели</button><button class="kw" type="button">бизнес-клуб</button></div>
+      <p class="hint">Нажми на слово — оно скопируется.</p>
+    </div>
   </div>
 </section>
 
@@ -149,7 +176,14 @@ document.querySelectorAll('.copy').forEach(function(btn){
     if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(text).then(ok,fallback)}else{fallback()}
   });
 });
+
+document.querySelectorAll('.kw').forEach(function(b){
+  b.addEventListener('click',function(){
+    var w=b.textContent;
+    function ok(){b.textContent='✓ '+w;b.classList.add('done');setTimeout(function(){b.textContent=w;b.classList.remove('done')},1500)}
+    if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(w).then(ok,function(){})}
+  });
+});
 </script>
 
-</body>
-</html>
+</body></html>
